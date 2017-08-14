@@ -19,7 +19,7 @@ public class StartApplication {
 
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
-		capabilities.setCapability("deviceName", "Micromax A311");
+		capabilities.setCapability("deviceName", "Android API 25");
 		capabilities.setCapability("platformVersion", "4.4.2");
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("app", app.getAbsolutePath());
